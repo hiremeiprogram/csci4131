@@ -1,0 +1,25 @@
+form{ 
+	display: table;
+	margin: auto;
+}
+input{
+	display: table-cell;
+	text-align: center;
+	margin: auto;
+}
+label{
+	display: table-cell;
+}
+h6{
+	margin: auto;
+	text-align: center;
+}  
+p{
+	margin: auto;
+	text-align: center;
+}
+div{
+	margin:auto;
+	text-align: left;
+}
+

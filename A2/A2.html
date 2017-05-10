@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>My Calendar</title>
+		<style type = "text/css">
+			h1
+			{
+				text-shadow: -10px 10px 23px dimgrey;
+				font-size: 400%
+			}
+			td { white-space:pre }
+			table, td 
+			{
+			    border: 2px solid black;
+			    padding: 15px;
+			}
+			table 
+			{
+			    border-spacing: 1px;
+				width:100%;
+			}
+			span
+			{
+				font-weight:bold;
+			}
+			div
+			{
+				font-style: italic;
+			}
+
+		</style>
+			
+	
+	</head>
+	
+	<body>
+	<nav>
+	<a href="#form">Input Form</a> |
+	<a href="#calendar">My Calendar</a>
+	</nav>
+	<h1 id = "calendar">My Calendar</h1>
+	<p><a href="#form">To Input Form</a></p>
+	<table>
+	<caption></caption>
+	<tbody>
+		<tr>
+			<td><span>Monday</span></td>
+			<td>CSCI 5103: Operating Systems</td>
+			<td><div>8:15-9:30am</div></td>
+			<td>Keller 311</td>
+		</tr>
+		<tr>
+			<td><span>Tuesday</span></td>
+			<td>No Classes</td>
+			<td><div> N/A </div></td>
+			<td> N/A </td>
+		</tr>
+		<tr>
+			<td><span>Wednesday</span></td>
+			<td>CSCI 5103: Operating Systems</td>
+			<td><div>8:15-9:30am</div></td>
+			<td>Keller 311</td>
+		</tr>
+		<tr>
+			<td><span>Thursday</span></td>
+			<td>CSCI 4131: Internet Programming</td>
+			<td><div>6:30-9:00pm</div></td>
+			<td>Lind 16</td>
+		</tr>
+		<tr>
+			<td><span>Friday</span></td>
+			<td> No Classes </td>
+			<td><div>N/A</div></td>
+			<td>N/A</td>
+		</tr>
+	</tbody>
+	</table>
+	<h1 id = "form">Input Form</h1>
+	<p><a href="#calendar">To Calendar</a></p>
+	<form method = "get" action = "http://gnu.org">
+	<p><label>Event Name:
+		<input name = "eventname" type = "text" size = "40">
+	</label></p>
+	<p><label>Start Time:
+		<input name = "starttime" type = "text" size = "8">
+	</label></p>
+	<p><label>End Time:
+		<input name = "endtime" type = "text" size = "8">
+	</label></p>
+	<p><label>Location:
+		<input name = "location" type = "text" size = "15">
+	</label></p>
+	<p>
+		<label>Day of the Week:
+		<select name = "day">
+			<option selected>Monday</option>
+			<option>Tuesday</option>
+			<option>Wednesday</option>
+			<option>Thursday</option>
+			<option>Friday</option>
+		</select>
+		</label>
+	</p>
+	<p>
+		<input type = "submit" value = "Submit">
+		<input type = "reset" value = "Clear">
+	</p>
+	</form>
+
+	<h6><i>tested in firefox</i></h6>
+	</body>
+</html>

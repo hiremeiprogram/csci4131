@@ -1,0 +1,82 @@
+h6
+{
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	left: 600px;
+	top: 850px;
+}
+div
+{
+	font-style: italic;
+	height: 200px;
+	width: 200px;
+	text-align: left;
+	position: absolute;
+}
+#redsquare
+{
+	border: thick solid violet;
+	background-color: red;
+	color: violet;
+	left: 0px;
+	top: 0px;
+}
+#orangesquare
+{
+	border: thick solid indigo;
+	background-color: orange;
+	color: indigo;
+	left: 100px;
+	top: 100px;
+}
+#yellowsquare
+{
+	border: thick solid blue;
+	background-color: yellow;
+	color: blue;
+	left: 200px;
+	top: 200px;
+}
+#greensquare
+{
+	border: thick solid black;
+	background: green;
+	color: black;
+	left: 300px;
+	top: 300px;
+	
+}
+#blacksquare{
+	border: thick solid green;
+	background: black;
+	color: white;
+	left: 600px;
+	top: 300px;
+	text-align: center;
+}
+#bluesquare
+{
+	border: thick solid yellow;
+	background: blue;
+	color: yellow;
+	left: 200px;
+	top: 400px;
+}
+#indigosquare
+{
+	border: thick solid orange;
+	background: indigo;
+	color: orange;
+	left: 100px;
+	top: 500px;
+}
+#violetsquare
+{
+	border: thick solid red;
+	background: violet;
+	color: red;
+	left: 0px;
+	top: 600px;
+}
+
